@@ -1,6 +1,6 @@
 class PandaPickItemModel {
   String name;
-  String remaingTime;
+  String remainingTime;
   String deliveryPrice;
   String image;
   String ratting;
@@ -9,7 +9,7 @@ class PandaPickItemModel {
 
   PandaPickItemModel(
       {required this.name,
-      required this.remaingTime,
+      required this.remainingTime,
       required this.deliveryPrice,
       required this.image,
       required this.ratting,

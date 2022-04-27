@@ -5,7 +5,7 @@ class ExclusiveHelper {
     ExclusiveItemModel(
         name: 'Burning Brownies',
         deliveryPrice: 'Free Delivery',
-        remaingTime: '15 min',
+        remainingTime: '15 min',
         image: "assets/cake.jpg",
         totalRating: '300',
         subTitle: 'Backery',
@@ -13,7 +13,7 @@ class ExclusiveHelper {
     ExclusiveItemModel(
         name: 'OPTP G11',
         deliveryPrice: '50',
-        remaingTime: '35 min',
+        remainingTime: '35 min',
         image: "assets/chicken.jpg",
         totalRating: '400',
         subTitle: 'Burgers',
@@ -21,7 +21,7 @@ class ExclusiveHelper {
     ExclusiveItemModel(
         name: 'China Town',
         deliveryPrice: '600',
-        remaingTime: '20 min',
+        remainingTime: '20 min',
         image: "assets/chinese.jpg",
         totalRating: '560',
         subTitle: "Chinees",

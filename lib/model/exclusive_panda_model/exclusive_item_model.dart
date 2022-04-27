@@ -1,6 +1,6 @@
 class ExclusiveItemModel {
   String name;
-  String remaingTime;
+  String remainingTime;
   String deliveryPrice;
   String image;
   String totalRating;
@@ -9,7 +9,7 @@ class ExclusiveItemModel {
 
   ExclusiveItemModel(
       {required this.name,
-      required this.remaingTime,
+      required this.remainingTime,
       required this.deliveryPrice,
       required this.image,
       required this.totalRating,

@@ -1,11 +1,11 @@
-import 'package:instagram_clone/model/panda_pick_model/pandaPickItemModel.dart';
+import 'package:instagram_clone/model/panda_pick_model/panda_pick_item_model.dart';
 
 class PandaPickHelper {
   static var statusList = [
     PandaPickItemModel(
         name: 'New York Pizza',
         deliveryPrice: '90',
-        remaingTime: '30 min',
+        remainingTime: '30 min',
         image: "assets/pizza.jpg",
         ratting: '4.8',
         subTitle: 'New York',
@@ -13,7 +13,7 @@ class PandaPickHelper {
     PandaPickItemModel(
         name: 'Burger Lab',
         deliveryPrice: '50',
-        remaingTime: '25 min',
+        remainingTime: '25 min',
         image: "assets/burger.jpg",
         ratting: '4.2',
         subTitle: 'Burgers',
@@ -21,7 +21,7 @@ class PandaPickHelper {
     PandaPickItemModel(
         name: 'Jans Delights',
         deliveryPrice: '600',
-        remaingTime: '20 min',
+        remainingTime: '20 min',
         image: "assets/noddels.jpg",
         ratting: '2.5',
         subTitle: "Pakistani",

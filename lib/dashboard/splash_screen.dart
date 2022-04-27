@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:instagram_clone/constats/color.dart';
 import 'package:instagram_clone/dashboard/welcome.dart';
 
@@ -24,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
       () => Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => WelcomeScreen(),
+          builder: (context) => const WelcomeScreen(),
         ),
       ),
     );
